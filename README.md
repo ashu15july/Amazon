@@ -565,5 +565,5 @@ ISC
 
 **Framework Version:** 1.0.0  
 **Last Updated:** December 2025  
-**Maintained By:** QA Team  
+**Maintained By:** Ashutosh 
 **Target Application:** Amazon E-Commerce (amazon.de, amazon.fr, amazon.com)
