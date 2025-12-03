@@ -1,0 +1,48 @@
+{
+  "germany": {
+    "searchTerms": ["laptop", "headphones", "mouse", "keyboard", "usb cable"],
+    "products": [
+      {
+        "id": "DE001",
+        "name": "Laptop",
+        "searchTerm": "laptop",
+        "price": "29.99",
+        "currency": "EUR"
+      }
+    ]
+  },
+  "france": {
+    "searchTerms": ["ordinateur portable", "écouteurs", "souris", "clavier", "câble usb"],
+    "products": [
+      {
+        "id": "FR001",
+        "name": "Ordinateur Portable",
+        "searchTerm": "ordinateur portable",
+        "price": "29.99",
+        "currency": "EUR"
+      }
+    ]
+  },
+  "usa": {
+    "searchTerms": ["laptop", "headphones", "mouse", "keyboard", "usb cable"],
+    "products": [
+      {
+        "id": "US001",
+        "name": "Laptop",
+        "searchTerm": "laptop",
+        "price": "29.99",
+        "currency": "USD"
+      }
+    ]
+  },
+  "de": {
+    "searchTerms": ["laptop", "kopfhörer", "maus", "tastatur", "usb kabel"]
+  },
+  "fr": {
+    "searchTerms": ["ordinateur portable", "écouteurs", "souris", "clavier", "câble usb"]
+  },
+  "en": {
+    "searchTerms": ["laptop", "headphones", "mouse", "keyboard", "usb cable"]
+  }
+}
+

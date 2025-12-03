@@ -1,0 +1,21 @@
+{
+  "germany": {
+    "url": "https://www.amazon.de/",
+    "locale": "de-DE",
+    "currency": "EUR",
+    "language": "de"
+  },
+  "france": {
+    "url": "https://www.amazon.fr/",
+    "locale": "fr-FR",
+    "currency": "EUR",
+    "language": "fr"
+  },
+  "usa": {
+    "url": "https://www.amazon.com/",
+    "locale": "en-US",
+    "currency": "USD",
+    "language": "en"
+  }
+}
+

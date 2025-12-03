@@ -1,0 +1,41 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright JavaScript Test Automation Framework with multi-country/multi-language support",
+  "main": "index.js",
+  "scripts": {
+    "clean:allure": "node utils/cleanAllure.js",
+    "test": "npm run clean:allure && playwright test",
+    "test:chrome": "npm run clean:allure && playwright test --project=chromium-desktop",
+    "test:firefox": "npm run clean:allure && playwright test --project=firefox-desktop",
+    "test:webkit": "npm run clean:allure && playwright test --project=webkit-desktop",
+    "test:mobile": "npm run clean:allure && playwright test --project=mobile-chrome",
+    "test:germany": "npm run clean:allure && cross-env COUNTRY=germany playwright test",
+    "test:france": "npm run clean:allure && cross-env COUNTRY=france playwright test",
+    "test:usa": "npm run clean:allure && cross-env COUNTRY=usa playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:amazon-search:chrome": "npm run clean:allure && playwright test tests/amazon-search.spec.js --project=chromium-desktop",
+    "test:amazon-search:chrome:report": "npm run test:amazon-search:chrome && npm run report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "report": "npm run allure:generate && npm run allure:open"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "e2e-testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-commandline": "^2.24.1",
+    "allure-playwright": "^2.9.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1"
+  }
+}
+
